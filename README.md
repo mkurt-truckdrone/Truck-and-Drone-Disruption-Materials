@@ -50,5 +50,5 @@ Each folder contains its own `README.md` describing the associated files, experi
 
 ## License
 
-See the repository [`LICENSE`](LICENSE) file for licensing information.
+Licensing information will be added following final review.
 
