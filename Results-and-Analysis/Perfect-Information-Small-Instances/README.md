@@ -6,7 +6,7 @@ This Excel workbook contains the computational results supporting the **Small In
 
 **File:** `12cus20INS(PerftvsNoPerfGIT).xlsx`
 
-The workbook contains five worksheets.
+The workbook contains seven worksheets.
 
 ### `12custPerfectResults`
 
@@ -44,6 +44,31 @@ Compares the **number of drone sorties/customers** between No Recourse and Recou
 
 Recourse with perfect information uses **143% more drone sorties** than No Recourse.
 
+## Paired t-Test Analysis
+
+The workbook also includes the paired t-test calculations supporting the statistical-significance statements reported in Section **4.3.1**.
+
+### `NOPERRECvsPERREC(paired)`
+
+Contains the paired makespan observations and Excel **paired two-sample t-test** results comparing:
+
+- Recourse without perfect information
+- Recourse with perfect information
+
+The analysis uses **80 paired observations**. The test gives **t(79) = 12.85** with a two-tailed **p < 0.001**, confirming a statistically significant difference between the two recourse solutions.
+
+### `NOPERNORECvsPERREC(paired)`
+
+Contains the paired makespan observations and Excel **paired two-sample t-test** results comparing:
+
+- No Recourse
+- Recourse with perfect information
+
+The analysis uses **80 paired observations**. The test gives **t(79) = 17.60** with a two-tailed **p < 0.001**, confirming a statistically significant difference between No Recourse and Recourse with perfect information.
+
 ## Summary
 
-For the small instances, Recourse with perfect information improves makespan by **7.6%** compared with Recourse without perfect information and by **19.9%** compared with No Recourse. Both makespan comparisons are statistically significant based on paired t-tests. The use of perfect information also results in greater drone utilization.
+For the small instances, Recourse with perfect information improves makespan by **7.6%** compared with Recourse without perfect information and by **19.9%** compared with No Recourse. The paired t-tests confirm that **both makespan differences are statistically significant (p < 0.001)**.
+
+Recourse with perfect information also uses **4.5% more drone sorties** than Recourse without perfect information and **143% more drone sorties** than No Recourse.
+
