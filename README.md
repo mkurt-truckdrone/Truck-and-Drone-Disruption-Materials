@@ -50,5 +50,5 @@ Each folder contains its own `README.md` describing the associated files, experi
 
 ## License
 
-Licensing information will be added following final review.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
